@@ -87,15 +87,18 @@ body {
                 font-style: italic;
                 font-size: 16pt;}
             .head1{
-                padding-top: 0rem;
-                padding-bottom: 0rem;
+                padding-top: 6rem;
+                padding-bottom: 1.5rem;}
+            .section{
+                margin-top: -4rem;
             }
+            
 
             
         </style>
         <!-- Header-->
-        <header class=" bg-dark bg-gradient text-white ">
-            <div class="container px-4 text-center head1">
+        <header class=" bg-dark bg-gradient text-white head1">
+            <div class="container px-4 text-center">
                 <h1 class="fw-bolder">Welcome to G-Strum</h1>
                 <p class="bgdes">Where you let your fingers strum for your guitar to sing. </p>
                 
@@ -105,7 +108,7 @@ body {
         <section id="songs">
             <div class="container px-4">
                 <div class="row gx-4 justify-content-center">
-                    <div class="col-lg-12 text-center">
+                    <div class="col-lg-12 text-center section">
 
                         <style >
                             .ly{
@@ -137,7 +140,7 @@ body {
                             line-height:0.5;
                             font-family:"Courier New", monospace;
                             font-weight: 600;
-                            font-size: 30pt;
+                            font-size: 34pt;
                             }
 
                             .author{
