@@ -58,7 +58,7 @@ body {
                     }
 
                     .topnav a:hover {
-                      background-color: white;
+                      background-color: #D3D3D3;
                       color: black;
                     }
 
@@ -70,11 +70,11 @@ body {
                 </style>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto topnav">
-                        <li class="nav-item"><a class="topnav" href="index.php">Song1</a></li>
-                        <li class="nav-item"><a class="topnav" href="song2.php">Song2</a></li>
-                        <li class="nav-item"><a class="topnav active" href="song3.php">Song3</a></li>
-                         <li class="nav-item"><a class="topnav" href="song4.php">Song4</a></li>
-                          <li class="nav-item"><a class="topnav" href="song5.php">Song5</a></li>
+                        <li class="nav-item"><a class="topnav" href="index.php">Synesthesia</a></li>
+                        <li class="nav-item"><a class="topnav" href="song2.php">&nbsp;&nbsp;Binibini&nbsp;&nbsp;</a></li>
+                        <li class="nav-item"><a class="topnav active" href="song3.php">&nbsp; &nbsp; 214 &nbsp; &nbsp;&nbsp;</a></li>
+                         <li class="nav-item"><a class="topnav" href="song4.php">&nbsp; &nbsp;Buwan&nbsp; &nbsp;</a></li>
+                          <li class="nav-item"><a class="topnav" href="song5.php">&nbsp; &nbsp;&nbsp; 14 &nbsp; &nbsp; </a></li>
                     </ul>
                 </div>
             </div>
