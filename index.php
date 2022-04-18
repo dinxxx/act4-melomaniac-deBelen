@@ -20,7 +20,7 @@ body {
 .navtext{
  font-family: "Courier New", monospace;
  font-size: 16pt;
- font-weight: 500;}
+ font-weight: 700;}
 
  .navtextsong{
  font-family: "Courier New", monospace;
@@ -45,6 +45,7 @@ body {
                       overflow: hidden;
                       background-color: #2a1930;
                       font-family: "Courier New", monospace;
+                      font-weight: 600;
                     }
 
                     .topnav a {
@@ -62,17 +63,18 @@ body {
                     }
 
                     .topnav a.active {
-                      background-color: green;
-                      color: white;}
+                      background-color:#CF9FFF;
+                      color: black;
+                    }
 
                 </style>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto topnav">
-                        <li class="nav-item"><a class="topnav active" href="#">Song1</a></li>
-                        <li class="nav-item"><a class="topnav" href="#">Song2</a></li>
-                        <li class="nav-item"><a class="topnav" href="#">Song3</a></li>
-                         <li class="nav-item"><a class="topnav" href="#">Song4</a></li>
-                          <li class="nav-item"><a class="topnav" href="#">Song5</a></li>
+                        <li class="nav-item"><a class="topnav active" href="index.php">Song1</a></li>
+                        <li class="nav-item"><a class="topnav" href="song2.php">Song2</a></li>
+                        <li class="nav-item"><a class="topnav" href="song3.php">Song3</a></li>
+                         <li class="nav-item"><a class="topnav" href="song4.php">Song4</a></li>
+                          <li class="nav-item"><a class="topnav" href="song5.php">Song5</a></li>
                     </ul>
                 </div>
             </div>
@@ -135,7 +137,8 @@ body {
                             line-height:0.5;
                             font-family:"Courier New", monospace;
                             font-weight: 600;
-                            font-size: 26pt;}
+                            font-size: 30pt;
+                            }
 
                             .author{
                             color: #000066;
