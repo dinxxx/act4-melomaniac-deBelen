@@ -27,6 +27,8 @@ body {
  font-size: 14pt;
  font-weight: 500;}
 
+ }
+
 </style>
 
 
@@ -47,7 +49,7 @@ body {
 
                     .topnav a {
                       float: left;
-                      color: #f2f2f2;0
+                      color: #f2f2f2;
                       text-align: center;
                       padding: 14px 16px;
                       text-decoration: none;
@@ -55,26 +57,28 @@ body {
                     }
 
                     .topnav a:hover {
-                      background-color: #ddd;
+                      background-color: white;
                       color: black;
                     }
 
                     .topnav a.active {
-                      background-color: #04AA6D;
-                      color: white;
-                    }
-                    
+                      background-color: green;
+                      color: white;}
+
                 </style>
-      
-                <div class="topnav">
-                    <a class="active" href="index.php">Song1</a>
-                    <a href="song2.php">Song2</a>
-                    <a href="song3.php">Song3</a>
-                    <a href="song4.php">Song4</a>
-                    <a href="song5.php">Song5</a>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto topnav">
+                        <li class="nav-item"><a class="topnav active" href="#">Song1</a></li>
+                        <li class="nav-item"><a class="topnav" href="#">Song2</a></li>
+                        <li class="nav-item"><a class="topnav" href="#">Song3</a></li>
+                         <li class="nav-item"><a class="topnav" href="#">Song4</a></li>
+                          <li class="nav-item"><a class="topnav" href="#">Song5</a></li>
+                    </ul>
                 </div>
             </div>
         </nav>
+
+
 
         <style>
             .bgdes{
